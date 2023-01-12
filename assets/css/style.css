@@ -29,15 +29,15 @@
 .hero-images{
   width: 100%;
   aspect-ratio: 2/3;
-  animation: 1ms;
+  transition: 10ms;
 }
 
 .name{
   position: absolute;
-  font-family: americana;
+  font-family: Ananda;
   display: flex;
   text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
-  font-size: 6vw;
+  font-size: 2.5vw;
   justify-content: center;
   align-items: flex-end;
   color: #E3C1A5;
@@ -489,7 +489,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 64px;
   color: #1A2020;
