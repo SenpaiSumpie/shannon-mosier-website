@@ -81,6 +81,7 @@
 
 .service-title{
   font-size: large;
+  font-family: Montserrat;
 }
 
 .divider-left{
@@ -495,7 +496,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: Ragiel;
+  font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
   color: #1A2020;
@@ -719,24 +720,30 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 64px;
   color: #1A2020;
-  font-family: Vandal;
+  font-family: Montserrat;
+}
+
+.logo-image{
+  width: 50%;
+  aspect-ratio: 1/1;
+  margin-bottom: -75px;
 }
 
 
 
 #hero h1 span {
-  font-family: Ananda;
+  font-family: Montserrat;
   color: #1A2020;
 }
 
 #hero .quoter{
   font-size: x-large;
   color: #1A2020;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:Montserrat;
 }
 
 #hero h2 {
@@ -826,7 +833,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: Montserrat;
 }
 
 .section-title h2::after {
@@ -841,10 +848,10 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 72px;
+  font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: Ruas;
+  font-family: Montserrat;
   color: #151515;
 }
 
@@ -966,7 +973,7 @@ section {
 }
 
 .service-title{
-  font-family: Vandal;
+  font-family: Montserrat;
 }
 
 .services .icon-box .icon {
@@ -1349,7 +1356,7 @@ section {
 
 .testimonials-1 {
   padding: 80px 0;
-  background: url("../img/other/maldives.jpg") no-repeat;
+  background: url("../img/other/bg-botom.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
