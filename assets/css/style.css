@@ -46,6 +46,10 @@
   width: 75%;
 }
 
+.p{
+  font-family: Montserrat;
+}
+
 .add-text{
   position: absolute;
   top: 200px;
