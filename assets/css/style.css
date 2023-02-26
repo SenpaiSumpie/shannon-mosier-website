@@ -38,7 +38,7 @@
   src: url("../fonts/ruas/RuasMediumGrunge.ttf") format('opentype');
 }
 .meet{
-  font-family: Ruas;
+  font-family: Montserrat;
 }
 
 .svg{
@@ -59,6 +59,7 @@
   border: 2px solid #A18167;
   color: #A18167;
   font-size: 42px;
+  width: 100%;
   background-color: #EFDCCC;
 }
 
@@ -81,7 +82,6 @@
 
 .additional-text{
   font-size: 14px;
-  margin-top: -40px;
 }
 
 .bottom-image{
@@ -464,12 +464,14 @@ h6 {
 #header.header-scrolled,
 #header.header-inner-pages {
   color: #fff !important;
-  background: #e3c1a5ad;
+  background: #e3c1a5;
+  box-shadow: 0 4px 2px -2px gray;
 }
 
 #header .logo {
   font-size: 32px;
   margin: 0;
+  color: #1A2020;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -479,9 +481,9 @@ h6 {
 
 #header .logo-image{
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
+  top: 10px;
+  left: 10px;
+  width: 100px;
   aspect-ratio: 1/1;
 }
 
@@ -814,6 +816,7 @@ h6 {
   border: 1px solid #A18167;
   height: 100%;
   text-align: center;
+  width: 100%;
 }
 
 #hero .icon-box i {
@@ -916,13 +919,13 @@ section {
 --------------------------------------------------------------*/
 
 .about{
-  height: 75vh;
+  height: 100%;
 }
 
 .about .content h3 {
   font-weight: 700;
-  font-size: 72px;
-  font-family: Ruas;
+  font-size: 50px;
+  font-family: Montserrat;
 }
 
 .about .content ul {
@@ -1394,6 +1397,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 40px;
+  height: 40vh;
   background: url("../img/artwork/art3.jpg") top center;
   background-size: cover;
   background-color: #A18167;
@@ -1972,4 +1976,32 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+
+@media (max-width: 1669px) {
+  #header .logo {
+    display: none !important;
+  }
+
+  .hero-picture {
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .bottom-image{
+    display: none !important;
+  }
+
+  .not-full{
+    width: 0%;
+  }
+}
+
+@media (max-width: 926px) {
+  #header .logo-image{
+    width: 50px;
+  }
 }
