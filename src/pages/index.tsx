@@ -1,7 +1,7 @@
 import styles from "./index.module.css";
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
+// import Link from "next/link";
 import Image from "next/image";
 import type { StaticImageData } from "next/image";
 
@@ -15,9 +15,6 @@ import HeroFour from '../assets/images/6H2A5333.png';
 import Email from '../assets/svg/email.svg';
 import Instagram from '../assets/svg/instagram.svg';
 import ArrowDown from '../assets/svg/arrowDown.svg';
-
-/**********  About Images **********/
-import AboutImage from '../assets/images/6H2A5285.png'
 
 /**********  Services Images **********/
 import ArtworkOne from '../assets/images/artwork/art2.png';
@@ -45,13 +42,13 @@ const Hero = () => {
             <Image src={HeroFour} width={438} height={657} alt="HeroFour" />
           </div>
           <div className={styles.heroImagesText}>
-            <span className={styles.heroImagesTextBegin}>it's time to outsource </span>
-            <span className={styles.heroImagesTextEnd}>AND I'M YOUR GIRL</span>
+            <span className={styles.heroImagesTextBegin}>it&#39;s time to outsource </span>
+            <span className={styles.heroImagesTextEnd}>AND I&#39;M YOUR GIRL</span>
           </div>
         </div>
         <div className={styles.heroAbout}>
           <span className={styles.heroAboutTitle}>...LET ME HELP YOU AND YOUR BUSINESS</span>
-          <span className={styles.heroAboutText}>as a business owner, you know how challenging it can be to manage all aspects of your enterprise. it often feels like you're wearing multiple hats and carrying an immense amount of responsibility. if you're currently feeling overwhelmed and stressed, it may be time to consider seeking help. that's where I come in - i can be your personal cheerleader, supporting and encouraging you every step of the way. my goal is to help your business not just survive but thrive, while also freeing up some of your valuable time. if this sounds like what you need, i'd love to chat with you and explore how we can work together.</span>
+          <span className={styles.heroAboutText}>as a business owner, you know how challenging it can be to manage all aspects of your enterprise. it often feels like you&#39;re wearing multiple hats and carrying an immense amount of responsibility. if you&#39;re currently feeling overwhelmed and stressed, it may be time to consider seeking help. that&#39;s where I come in - i can be your personal cheerleader, supporting and encouraging you every step of the way. my goal is to help your business not just survive but thrive, while also freeing up some of your valuable time. if this sounds like what you need, i&#39;d love to chat with you and explore how we can work together.</span>
           <div className={styles.heroAboutBottom}>
             <div className={styles.heroAboutBottomMenuItems}>
               <div className={styles.heroAboutBottomMenuList}>
@@ -90,7 +87,7 @@ const About = () => {
           <span className={styles.aboutName}>ABOUT</span>
         </div>
         <div className={styles.aboutContentText}>
-          <span className={styles.aboutText}>HI, I'M SHANNON! I'M ALL ABOUT LIVING LIFE TO THE FULLEST AND ENJOYING MUSIC, NATURE, AND NEW EXPERIENCES. BUT IN MY PREVIOUS JOBS, I FOUND MYSELF BURNT OUT AND QUESTIONING WHAT I WAS DOING. A MEDICAL DIAGNOSIS REMINDED ME OF HOW SHORT LIFE IS, AND I DECIDED TO TAKE CONTROL BY USING MY SKILLS TO HELP OTHERS AS A VIRTUAL ASSISTANT. AS A VA, I CAN PROVIDE SMALL BUSINESS OWNERS WITH THE FREEDOM AND REDUCED STRESS THAT I CRAVED IN MY PREVIOUS ROLES. BY TAKING ON TASKS THAT CONSUME TIME AND ENERGY, I CAN HELP YOU FOCUS ON WHAT REALLY MATTERS.<br/><br/>- MUSIC ENTHUSIAST<br/>- TRUE-CRIME DOCUMENTARY LOVER<br/>- FUR BABY ADVOCATE (BRUCE, AND LADYBUG)<br/><br/>SO HERES TO ROCKING THE VIRTUAL ASSITANT WORLD!</span>
+          <span className={styles.aboutText}>HI, I&#39;M SHANNON! I&#39;M ALL ABOUT LIVING LIFE TO THE FULLEST AND ENJOYING MUSIC, NATURE, AND NEW EXPERIENCES. BUT IN MY PREVIOUS JOBS, I FOUND MYSELF BURNT OUT AND QUESTIONING WHAT I WAS DOING. A MEDICAL DIAGNOSIS REMINDED ME OF HOW SHORT LIFE IS, AND I DECIDED TO TAKE CONTROL BY USING MY SKILLS TO HELP OTHERS AS A VIRTUAL ASSISTANT. AS A VA, I CAN PROVIDE SMALL BUSINESS OWNERS WITH THE FREEDOM AND REDUCED STRESS THAT I CRAVED IN MY PREVIOUS ROLES. BY TAKING ON TASKS THAT CONSUME TIME AND ENERGY, I CAN HELP YOU FOCUS ON WHAT REALLY MATTERS.<br/><br/>- MUSIC ENTHUSIAST<br/>- TRUE-CRIME DOCUMENTARY LOVER<br/>- FUR BABY ADVOCATE (BRUCE, AND LADYBUG)<br/><br/>SO HERES TO ROCKING THE VIRTUAL ASSITANT WORLD!</span>
         </div>
       </div>
       <div className={styles.aboutOpacity}></div>
@@ -108,7 +105,7 @@ const Services = () => {
     <div className={styles.services}>
       <div className={styles.offeredServices}>
         <div className={styles.serviceDescription}>
-          <span className={styles.serviceDescText}>when it comes to outsourcing, i understand that entrusting your work to someone else can feel intimidating. that's why i recommend scheduling a discovery call with me. during this call, we can get to know each other better, discuss your needs, and determine how we can work together seamlessly. it's a chance for you to see how i can support you and your business. let's connect and explore the possibilities of working together.</span>
+          <span className={styles.serviceDescText}>when it comes to outsourcing, i understand that entrusting your work to someone else can feel intimidating. that&#39;s why i recommend scheduling a discovery call with me. during this call, we can get to know each other better, discuss your needs, and determine how we can work together seamlessly. it&#39;s a chance for you to see how i can support you and your business. let&#39;s connect and explore the possibilities of working together.</span>
         </div>
         <div className={styles.whatServices}>
           <span className={styles.whatServTitle}> a few of the services i offer:</span>
